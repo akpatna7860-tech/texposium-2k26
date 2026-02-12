@@ -972,3 +972,11 @@ body{
   border-radius: 5px;
   text-align: right;
 }
+#chatbot {
+  display: none;
+  flex-direction: column;
+}
+
+#chatbot.active {
+  display: flex;
+}
