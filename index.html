@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TECHXPOSIUM '26</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
@@ -14,7 +16,6 @@
     <div id="preloader">
         <div class="loader-container">
             <h1 class="logo">TECHXPOSIUM 2026</h1>
-
             <div class="progress-box">
                 <div class="progress-bar" id="progress-bar"></div>
             </div>
@@ -420,6 +421,26 @@
       </div>
 
        
+<!-- Chatbot Button -->
+<div id="chatbot-toggle">💬</div>
+
+<!-- Chatbot Box -->
+<div id="chatbot">
+  <div class="chat-header">
+    TECHXPOSIUM Help
+    <span id="close-chat">✖</span>
+  </div>
+
+  <div class="chat-body" id="chat-body">
+    <div class="bot-message">Hello 👋 How can I help you?</div>
+  </div>
+
+  <div class="chat-footer">
+    <input type="text" id="user-input" placeholder="Type a message...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
 
         
       <!-- FORM -->
@@ -434,6 +455,7 @@
  <script src="script.js"></script>
  <script src="script1.js"></script>
  <<script src="script2.js"></script>
+  <<script src="script3.js"></script>
   
   
 </html>
