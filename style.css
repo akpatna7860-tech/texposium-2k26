@@ -890,3 +890,8 @@ body{
   font-size: 14px;
   color: #fff;
 }
+@media (max-width: 600px) {
+  .schedule-card {
+    margin-bottom: 20px;
+  }
+}
